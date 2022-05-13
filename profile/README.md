@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-We are Talent Agile
+We are Talent Agile and we do Agile & DevOps Coaching
 <!--
 
 **Here are some ideas to get you started:**
