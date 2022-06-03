@@ -8,13 +8,14 @@ assignees: ''
 
 # Reproducing step
 
-1. 
-2. 
-3. 
+1. < describe step 1 >
+2. < describe step 2 >
+3. < describe step 1 >
+< add more as needed >
 
-# Expected result
+# Expected behavior
 
-
+< describe the expected behavior>
 
 # Configuration
 
@@ -22,3 +23,4 @@ assignees: ''
 - Browser : Edge | Chrome | Firefox | Safari | ...
 - Language : en | fr | es | it | cn
 
+> Don't hesitate to include images or any other material that could help to reproduce, identify and correct the issue
