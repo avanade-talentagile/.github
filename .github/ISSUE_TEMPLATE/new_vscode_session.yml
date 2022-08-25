@@ -1,7 +1,7 @@
-name: 🐞 Bug2
-description: File a bug/issue
-title: "[BUG] <title>"
-labels: [Bug, Needs Triage]
+name: 🧑‍💻 Request VSCode env
+description: Require a new VS Code environment for a training session
+title: "[VSCode] Session"
+labels: []
 body:
 - type: checkboxes
   attributes:
