@@ -11,4 +11,8 @@ jobs:
       issues: write
     steps:
     - name: get issue detail
-      run: echo '${{ toJSON(github) }}'
+      run: |
+        echo '${{ toJSON(env) }}'
+        echo '${{ toJSON(github) }}'
+        echo '${{ github.event.issue.body }}'
+        cat ${{ github.event_path }}

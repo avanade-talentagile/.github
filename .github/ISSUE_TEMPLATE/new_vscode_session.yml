@@ -11,6 +11,13 @@ body:
     - label: I agree with usage rules
       required: true
   id: iAgree
+- type: input
+  attributes:
+    label: Session title
+    description: Name of the session
+  validations:
+    required: true
+  id: sessionName
 - type: textarea
   attributes:
     label: Trainees
