@@ -10,13 +10,14 @@ jobs:
     permissions:
       issues: write
     steps:
+    - name: store issue body
+      run: echo '${{ toJSON(github) }} > body.json
     - name: get issue detail
+      shell: pwsh
       run: |
         # echo '${{ github.event.issue.title }}'
         # echo '${{ github.event.issue.body }}'
         $title = '${{ github.event.issue.title }}'
-        $body = '${{ github.event.issue.body }}' | ConvertFrom-Markdown | fl *
+        $body = Get-Content body.json | ConvertFrom-Markdown | fl *
 
-
-      shell: pwsh
 
