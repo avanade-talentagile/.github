@@ -12,7 +12,7 @@ jobs:
     steps:
     - name: get issue detail
       run: |
-        echo '${{ toJSON(env) }}'
+        echo '${{ toJSON(job) }}'
         echo '${{ toJSON(github) }}'
         echo '${{ github.event.issue.body }}'
         cat ${{ github.event_path }}
