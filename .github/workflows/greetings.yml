@@ -1,6 +1,6 @@
 name: Greetings
 
-on: 
+on:
   issues:
     types: [opened, edited]
 
@@ -12,7 +12,11 @@ jobs:
     steps:
     - name: get issue detail
       run: |
-        echo '${{ toJSON(job) }}'
-        echo '${{ toJSON(github) }}'
-        echo '${{ github.event.issue.body }}'
-        cat ${{ github.event_path }}
+        # echo '${{ github.event.issue.title }}'
+        # echo '${{ github.event.issue.body }}'
+        $title = '${{ github.event.issue.title }}'
+        $body = '${{ github.event.issue.body }}' | ConvertFrom-Markdown | fl *
+
+
+      shell: pwsh
+
