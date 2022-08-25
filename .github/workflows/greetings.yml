@@ -1,0 +1,14 @@
+name: Greetings
+
+on: 
+  issues:
+    types: [opened, edited]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+    - name: get issue detail
+      run: echo '${{ toJSON(github) }}'
