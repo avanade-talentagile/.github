@@ -8,8 +8,9 @@ assignees: ''
 ---
 
 <Feature title>
+### Description
   
-Description of the feature to add to the product.
+<!-- Description of the feature to add to the product. -->
   
 Ex: This new feature will make easier the input of new values
   
