@@ -1,0 +1,26 @@
+name: 💡 feature request
+description: Propose a new feature
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to share your idea to improve the product!
+  - type: textarea
+    id: description
+    attributes:
+      label: How can we help you?
+      description: Tell us what would make our product more efficient, easy to use?
+      placeholder: Write down your idea
+      value: "Don't hesitate to give details"
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/avanade-talentagile/.github/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
