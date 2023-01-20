@@ -6,6 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
+        ![Bug banner](https://user-images.githubusercontent.com/70886462/213660864-86527af9-50ba-45c3-8052-ec2157a67ecf.png)
+      
         Thanks for taking the time to fill out this bug report!
   - type: textarea
     id: what-happened
