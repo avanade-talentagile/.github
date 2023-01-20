@@ -1,8 +1,6 @@
 ## Hi there 👋
 
-🙋‍ We are Talentagile and we do Agile & DevOps Coaching
-
-<!-- ![image](https://user-images.githubusercontent.com/70886462/213666795-7b1c2038-2deb-4a70-86fb-9b77dab3b894.png) -->
+We are Talentagile and we do Agile & DevOps Coaching
 
 <!--
 
