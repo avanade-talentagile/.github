@@ -1,18 +1,18 @@
 ---
-name: Feature request
+name: 💡 Feature Request
 about: Suggest an idea for this project
-title: '<Feature name>'
-labels: 'enhancement'
+title: "[feature] "
+labels: enhancement
 assignees: ''
-
 ---
 
-<Feature title>
-### Description
-  
-<!-- Description of the feature to add to the product. -->
-  
-Ex: This new feature will make easier the input of new values
-  
+## Description
+<!--- A clear and concise description of what the problem is - e.g. "I'm always frustrated when [...]" -->
 
 
+## Describe the solution you'd like
+<!--- What would the feature look like? How would it work? How would it change the API? -->
+
+
+## Describe alternatives you've considered
+<!--- Are there alternatives you've tried, and/or workarounds in-place? -->
