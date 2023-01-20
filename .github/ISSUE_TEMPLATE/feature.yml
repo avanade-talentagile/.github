@@ -6,6 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
+        ![banner-ooh-1](https://user-images.githubusercontent.com/6351798/172678916-1e6448f8-2a8d-4e74-84c4-7b215f2d5408.png)
+        
         Thanks for taking the time to share your idea to improve the product!
   - type: textarea
     id: description
