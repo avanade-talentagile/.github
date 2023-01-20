@@ -12,8 +12,7 @@ body:
     attributes:
       label: How can we help you?
       description: Tell us what would make our product more efficient, easy to use?
-      placeholder: Write down your idea
-      value: "Don't hesitate to give details"
+      placeholder: "Don't hesitate to give details, to include images or any additional support that my help"
     validations:
       required: true
   - type: checkboxes
