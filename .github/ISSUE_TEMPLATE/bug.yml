@@ -17,6 +17,14 @@ body:
       placeholder: "Oh! An unexpected feature 😮"
     validations:
       required: true
+  - type: checkboxes
+    id: reproduce
+    attributes:
+      label: Can your reproduce this bug ?
+      description: Tell us if this is a one time bug or something recuring you can easily reproduce
+      options:
+        - label: I can reproduce this bug
+          required: false
   - type: input
     id: version
     attributes:
