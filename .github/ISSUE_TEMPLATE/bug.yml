@@ -14,8 +14,7 @@ body:
     attributes:
       label: What happened?
       description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "Oh! An unexpected feature 😮"
+      placeholder: "Oh! An unexpected feature 😮"
     validations:
       required: true
   - type: input
