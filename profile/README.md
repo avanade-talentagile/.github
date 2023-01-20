@@ -1,6 +1,9 @@
+![image](https://user-images.githubusercontent.com/70886462/213666795-7b1c2038-2deb-4a70-86fb-9b77dab3b894.png)
+
 ## Hi there 👋
 
-We are Talent Agile and we do Agile & DevOps Coaching
+🙋‍ We are Talentagile and we do Agile & DevOps Coaching
+
 <!--
 
 **Here are some ideas to get you started:**
