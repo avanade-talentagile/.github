@@ -1,26 +1,38 @@
 ---
-name: Bug report
+name: 🐛 Bug report
 about: Create a report to help us improve
 title: '[BUG] '
 labels: 'bug'
 assignees: ''
 ---
 
-# Reproducing step
+<!--- Provide a general summary of the issue in the Title above -->
 
-1. < describe step 1 >
-2. < describe step 2 >
-3. < describe step 1 >
-< add more as needed >
+## Expected Behavior
+<!--- Tell us what should happen -->
 
-# Expected behavior
+## Current Behavior
+<!--- Tell us what happens instead of the expected behavior -->
 
-< describe the expected behavior>
+## Possible Solution
+<!--- Not obligatory, but suggest a fix/reason for the bug, -->
 
-# Configuration
+## Steps to Reproduce
+<!--- Provide a link to a live example, or an unambiguous set of steps to -->
+<!--- reproduce this bug. Include code to reproduce, if relevant -->
+1.
+2.
+3.
+4.
 
-- OS : Windows | Linux | MacOS | Android | iOS | iPadOS | ...
-- Browser : Edge | Chrome | Firefox | Safari | ...
-- Language : en | fr | es | it | cn
+## Context (Environment)
+<!--- How has this issue affected you? What are you trying to accomplish? -->
+<!--- Providing context helps us come up with a solution that is most useful in the real world -->
 
-> Don't hesitate to include images or any other material that could help to reproduce, identify and correct the issue
+<!--- Provide a general summary of the issue in the Title above -->
+
+## Detailed Description
+<!--- Provide a detailed description of the change or addition you are proposing -->
+
+## Possible Implementation
+<!--- Not obligatory, but suggest an idea for implementing addition or change -->
